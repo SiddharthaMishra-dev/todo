@@ -1,3 +1,13 @@
+:root {
+  --clr-primary-1: #fff;
+  --clr-primary-2: #fcf8e8;
+  --clr-primary-3: antiquewhite;
+  --clr-primary-4: #df7861;
+  --clr-primary-5: #dd674d;
+  --clr-primary-6: #df7878;
+  --clr-primary-7: red;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -14,7 +24,7 @@ p {
 }
 .showcase {
   height: 100vh;
-  background-color: #fcf8e8;
+  background-color: var(--clr-primary-2);
   padding: 5% 15%;
 }
 .container {
@@ -22,9 +32,9 @@ p {
   /* justify-content: space-between; */
   gap: 20%;
   padding: 5% 2% 5% 5%;
-  background-color: #df7861;
+  background-color: var(--clr-primary-4);
   border-radius: 10px;
-  box-shadow: #df7878;
+  box-shadow: var(--clr-primary-6);
 }
 #input-form {
   text-align: left;
@@ -41,8 +51,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 5px solid #dd674d;
-  background-color: antiquewhite;
+  border: 5px solid var(--clr-primary-5);
+  background-color: var(--clr-primary-3);
   padding: 0 5px 0 5px;
   border-radius: 5px;
   overflow: scroll;
@@ -55,11 +65,11 @@ i {
   cursor: pointer;
 }
 #msg {
-  color: red;
+  color: var(--clr-primary-7);
 }
 
 .note-heading {
-  color: #fff;
+  color: var(--clr-primary-1);
   font-weight: 700;
   font-size: 1.5rem;
 }
