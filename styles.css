@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.showcase {
+  height: 100vh;
+  background-color: #fcf8e8;
+  padding: 7% 15%;
+}
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10%;
+  padding: 5%;
+  background-color: #df7861;
+}
+.notes {
+  width: 80%;
+}
+.singleNote {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.functions {
+  display: flex;
+  gap: 25px;
+}
+i {
+  cursor: pointer;
+}
+#msg {
+  color: red;
+}
