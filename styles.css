@@ -1,27 +1,51 @@
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: "Roboto";
+}
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 .showcase {
   height: 100vh;
   background-color: #fcf8e8;
-  padding: 7% 15%;
+  padding: 5% 15%;
 }
 .container {
   display: flex;
   /* justify-content: space-between; */
-  gap: 10%;
-  padding: 5%;
+  gap: 20%;
+  padding: 5% 2% 5% 5%;
   background-color: #df7861;
+  border-radius: 10px;
+  box-shadow: #df7878;
+}
+#input-form {
+  text-align: left;
+}
+#input {
+  border-radius: 5px;
 }
 .notes {
-  width: 80%;
+  width: 100%;
+  text-align: center;
 }
 .singleNote {
-  width: 70%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 5px solid #dd674d;
+  background-color: antiquewhite;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+  overflow: scroll;
 }
 .functions {
   display: flex;
@@ -32,4 +56,10 @@ i {
 }
 #msg {
   color: red;
+}
+
+.note-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
