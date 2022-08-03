@@ -55,7 +55,7 @@ p {
   background-color: var(--clr-primary-3);
   padding: 0 5px 0 5px;
   border-radius: 5px;
-  overflow: scroll;
+  overflow: hidden;
 }
 .functions {
   display: flex;
