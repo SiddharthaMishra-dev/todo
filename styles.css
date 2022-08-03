@@ -41,19 +41,21 @@ p {
 }
 #input {
   border-radius: 5px;
+  padding: 5px;
 }
 .notes {
   width: 100%;
   text-align: center;
 }
 .singleNote {
+  margin-top: 10px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 5px solid var(--clr-primary-5);
   background-color: var(--clr-primary-3);
-  padding: 0 5px 0 5px;
+  padding: 0 10px 0 10px;
   border-radius: 5px;
   overflow: hidden;
 }
